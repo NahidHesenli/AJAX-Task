@@ -51,10 +51,10 @@ body{
     background-color: gray;
     border:none;
 }
-.status.alive::before{
+.status.active::before{
     background-color: greenyellow;
 }
-.status.dead::before{
+.status.passive::before{
     background-color: red;
 }
 .headtexts{
