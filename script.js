@@ -16,10 +16,10 @@ xtml.addEventListener("readystatechange",function (){
             status.classList.add("status")
             status.textContent=element.status+" - "+element.species
             if(element.status==="Alive"){
-                status.classList.add("alive")
+                status.classList.add("active")
             }
             else if(element.status==="Dead"){
-                status.classList.add("dead")
+                status.classList.add("passive")
             }
             headtexts.append(heading,status)
             const locations=document.createElement("div")
